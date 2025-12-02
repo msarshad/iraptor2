@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
       // Use relative paths so assets work when hosted under a GitHub Pages project subpath
-      base: '/iraptor2/',
+      base: '/msarshad/iraptor2/',
       server: {
         port: 3000,
         host: '0.0.0.0',
